@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header-style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/abuot-us.css">
+    <link rel="stylesheet" href="css/about-us-m.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=134db1b9cf1f1f2b4427210932b34dcb"></script>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="banner-center">
+            <div class="banner-pic"></div>
+            <div class="gloabl-nav-text">
+                <span class="chinese-text">品牌故事</span>
+                <p class="english-text">Wedding Dress</p>
+            </div>
+            <div class="brand-story">
+                <div class="brand-pic">
+                    <div class="pic-vile">
+                        <p>VERONICA</p>
+                    </div>
+                </div>
+                <div class="brand-text">
+                    <p class="p1">
+                        <p class="first-line">VERONICA成立于1820年，是一个专注于女性礼服婚纱高级定制的国际品牌，</p> 在韩国、英国、法国、美国、中国等国家均设有负责产品设计研发和品牌经营管理 的分支机构。2010年初，VERONICA着力开发中国市场，定名“VERONICA”，旨 在传递国际高级定制时尚理念、打造高雅精致生活
+                    </p>
+                    <p class="p2">
+                        <p class="second-line">“高级定制”与传统的量体裁衣、成衣购买截然不同，它赋予顾客的是真正个性化</p> 、独一无二的设计理念，这一点亦是 VERONICA高级定制的魅力所在。VERONICA 提倡优质、高效的礼服婚纱高级定制体验，来自不同国家的设计师组成的VERONICA 设计团队，经验丰富，致力满足全球顾客的高级定制需求。凭借奢华高贵的品质、 华美精湛的工艺，AVA高级定制礼服婚纱受到越来越多人的青睐。众多明星、知名主 持人以及商界精英、社会名流、婚礼新人等都慕名前来领略高级定制之美，并成为
+                        VERONICA的忠实客户
+                    </p>
+                </div>
+                <p class="history">1870年，巴黎世界博览会，VERONICA初次崭露头角便获得全球的瞩目，紧接着，它由第二代接班人Louis·Comfort·Vevonica（路易斯·康福特·维罗尼 卡，查尔斯·维罗尼卡的儿子）领军积极参与世界盛会，并夺下了多项金牌而闻名世界。1979年John·Loring受聘为维罗尼卡第三代设计总监，他网罗众多 知名设计师加入，成功带领维罗尼卡成为世界知名礼服珠宝品牌
+                </p>
+            </div>
+            <div class="gloabl-nav-text">
+                <span class="chinese-text">关于我们</span>
+                <p class="english-text">Wedding Dress</p>
+            </div>
+            <div class="about-us-pic">
+            </div>
+            <div class="address">
+                <span>VERONICA纽约第五大街旗舰店</span>
+                <p>无论是出租车司机、纽约客、还是游客，无人不知VERONICA的存在。这的确是最著名的一家店，这是一个充满魔力的奇妙之地。在这里，您的美丽梦想 将欣然成真
+                </p>
+            </div>
+            <div class="map">
+                <div id="allmap">
+
+                </div>
+                <div class="map-address">
+                    <p>New York–5th Avenue</p>
+                    <p>
+                        Fifth Avenue and 59th Street
+                    </p>
+                    <p>
+                        New York, NY 10033
+                    </p>
+
+                    <p> 223 577 9111</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-center">
+        </div>
+    </div>
+    <script src="lib/jquery-3.3.1.min.js"></script>
+    <script src="js/common.js"></script>
+    <script type="text/javascript">
+        // 百度地图API功能
+        var map = new BMap.Map("allmap"); // 创建Map实例
+        map.centerAndZoom(new BMap.Point(-94.981794, 38.577008), 14); // 初始化地图,设置中心点坐标和地图级别
+        //添加地图类型控件
+        map.addControl(new BMap.MapTypeControl({
+            mapTypes: [
+                BMAP_NORMAL_MAP,
+                BMAP_HYBRID_MAP
+            ]
+        }));
+        map.setCurrentCity("郑州"); // 设置地图显示的城市 此项是必须设置的
+        map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+        var mapStyle = {
+            style: "midnight"
+        }
+        map.setMapStyle(mapStyle);
+    </script>
+</body>
+
+</html>

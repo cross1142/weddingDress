@@ -1,0 +1,118 @@
+.gloabl-nav-text {
+  position: relative;
+  width: 1200px;
+  height: 180px;
+  overflow: hidden; }
+  .gloabl-nav-text .chinese-text {
+    margin-top: 70px;
+    display: block;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 26px;
+    color: #444444; }
+  .gloabl-nav-text .footer-text {
+    color: #f7f5f5; }
+  .gloabl-nav-text .english-text {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #c1c1c1;
+    font-size: 16px; }
+
+.gloabl-nav-text.homepage {
+  height: 210px; }
+  .gloabl-nav-text.homepage .chinese-text {
+    margin-top: 100px; }
+
+.gloabl-more {
+  position: relative;
+  width: 1200px;
+  height: 164px;
+  overflow: hidden; }
+  .gloabl-more .gloabl-more-text {
+    position: relative;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: 59px;
+    display: block;
+    width: 150px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 12px;
+    color: #444444;
+    border: 1px solid #f5f5f5; }
+    .gloabl-more .gloabl-more-text a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      color: #2d2d2d; }
+    .gloabl-more .gloabl-more-text:hover {
+      border-color: #b9ab77; }
+
+.gloabl-nav-text.tap .chinese-text {
+  margin-top: 75px; }
+
+.gloabl-nav-text.tap {
+  height: 170px; }
+
+@media (max-width: 768px) {
+  .gloabl-nav-text {
+    width: 100%;
+    height: 80px;
+    overflow: hidden; }
+    .gloabl-nav-text .chinese-text {
+      margin-top: 20px;
+      display: block;
+      width: 100%;
+      height: 20px;
+      text-align: center;
+      line-height: 20px;
+      font-size: 16px;
+      color: #444444; }
+    .gloabl-nav-text .footer-text {
+      color: #f7f5f5; }
+    .gloabl-nav-text .english-text {
+      width: 100%;
+      height: 20px;
+      text-align: center;
+      line-height: 20px;
+      color: #c1c1c1;
+      font-size: 12px; }
+
+  .gloabl-more {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    overflow: hidden; }
+    .gloabl-more .gloabl-more-text {
+      position: relative;
+      left: 50%;
+      margin-left: -60px;
+      margin-top: 40px;
+      display: block;
+      width: 120px;
+      height: 36px;
+      text-align: center;
+      line-height: 36px;
+      font-size: 16px;
+      color: #444444;
+      border: 1px solid #f5f5f5; }
+      .gloabl-more .gloabl-more-text:hover {
+        border-color: grey; }
+
+  .gloabl-nav-text.tap .chinese-text {
+    margin-top: 30px; }
+
+  .gloabl-nav-text.tap {
+    height: 100px; }
+
+  .gloabl-nav-text.homepage {
+    height: 100px; }
+    .gloabl-nav-text.homepage .chinese-text {
+      margin-top: 50px; } }
+
+/*# sourceMappingURL=nav-style.css.map */

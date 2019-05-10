@@ -1,0 +1,102 @@
+@media (max-width: 768px) {
+  .banner {
+    width: 100%;
+    margin-top: 52px; }
+    .banner .banner-center {
+      width: 100%;
+      margin: 0 auto; }
+      .banner .banner-center .banner-pic {
+        width: 94%;
+        height: 270px;
+        margin-left: 3%;
+        background: url(../img/about1.jpg) no-repeat center;
+        background-size: cover; }
+      .banner .banner-center .brand-story {
+        position: relative;
+        width: 100%;
+        height: 840px;
+        margin: 0 auto; }
+        .banner .banner-center .brand-story .brand-pic {
+          width: 94%;
+          margin-left: 3%;
+          height: 314px;
+          background: url(../img/about2.jpg) no-repeat center;
+          background-size: cover; }
+          .banner .banner-center .brand-story .brand-pic .pic-vile {
+            display: none;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            overflow: hidden; }
+            .banner .banner-center .brand-story .brand-pic .pic-vile p {
+              width: 100%;
+              text-align: center;
+              margin-top: 148px; }
+        .banner .banner-center .brand-story .brand-text {
+          position: absolute;
+          top: 320px;
+          right: 5%;
+          width: 90%;
+          height: 340px;
+          font-size: 12px;
+          color: #6b6b6b;
+          line-height: 24px;
+          box-sizing: border-box; }
+          .banner .banner-center .brand-story .brand-text .first-line {
+            display: inline-block;
+            text-indent: 2em; }
+          .banner .banner-center .brand-story .brand-text .second-line {
+            text-indent: 1.5em; }
+        .banner .banner-center .brand-story .history {
+          width: 90%;
+          margin-left: 5%;
+          font-size: 12px;
+          color: #6b6b6b;
+          line-height: 24px;
+          margin-top: 370px; }
+      .banner .banner-center .about-us-pic {
+        width: 94%;
+        height: 260px;
+        margin-left: 3%;
+        background: url(../img/about3.jpg) no-repeat center; }
+      .banner .banner-center .address {
+        width: 90%;
+        height: 167px;
+        margin-left: 5%; }
+        .banner .banner-center .address span {
+          display: block;
+          width: 100%;
+          color: #373737;
+          font-size: 16px;
+          text-align: center; }
+        .banner .banner-center .address p {
+          color: #616060;
+          font-size: 12px; }
+      .banner .banner-center .map {
+        position: relative;
+        width: 100%;
+        height: 450px;
+        margin: 0 auto;
+        overflow: hidden; }
+        .banner .banner-center .map #allmap {
+          width: 94%;
+          height: 264px;
+          margin-top: 40px;
+          margin-left: 3%; }
+        .banner .banner-center .map .map-address {
+          position: absolute;
+          bottom: 15px;
+          left: 3%;
+          height: 100px;
+          width: 100%; }
+          .banner .banner-center .map .map-address p {
+            color: #616060; }
+
+  .footer {
+    width: 100%;
+    height: 50px; }
+    .footer .footer-center {
+      width: 100%;
+      height: 0;
+      margin: 0 auto; } }
+
+/*# sourceMappingURL=about-us-m.css.map */

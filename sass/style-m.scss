@@ -1,0 +1,353 @@
+@media (max-width: 768px) {
+    .banner {
+        position: relative;
+        top: 52px;
+        width: 94%;
+        margin-left: 3%;
+        overflow: hidden;
+        .aside-tap {
+            display: none;
+        }
+        .swiper {
+            width: 300%;
+            height: 360px;
+            .sildes {
+                width: 33.33%;
+                height: 100%;
+                float: left;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+                .swiper-more {
+                    position: absolute;
+                    top: 60%;
+                    right: 6.5%;
+                    width: 100px;
+                    height: 40px;
+                    border: 1px solid #b9ab77;
+                    line-height: 40px;
+                    text-align: center;
+                    color: #b9ab77;
+                    font-style: italic;
+                    background-color: #DCDDE2;
+                    z-index: 90;
+                }
+                .swiper-border {
+                    position: absolute;
+                    top: 62%;
+                    right: 7%;
+                    width: 100px;
+                    height: 40px;
+                    border: 1px solid #c1c1c1;
+                }
+            }
+        }
+        .dotts {
+            position: absolute;
+            top: 320px;
+            left: 50%;
+            margin-left: -40px;
+            width: 80px;
+            height: 20px;
+            li {
+                margin-top: 6px;
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background-color: #bebec2;
+                float: left;
+                margin-left: 20px;
+            }
+            .active {
+                background-color: #fff;
+                border: 5px solid #bebec2;
+                margin-top: 1px;
+            }
+        }
+        .banner-center {
+            width: 100%;
+            .new-features {
+                position: relative;
+                width: 100%;
+                // height: 72px;
+                margin-bottom: 30px;
+                margin-top: 20px;
+                .new-features-nav {
+                    width: 100%;
+                    height: 600px;
+                    margin: 0 auto;
+                    li {
+                        width: 20%;
+                        // height: 400px;
+                        margin-top: 10px;
+                        float: left;
+                        margin-left: 5%;
+                        // background-color: lightblue;
+                        a {
+                            position: relative;
+                            display: block;
+                            width: 100%;
+                            height: 72px;
+                            color: #4d4d4d;
+                            text-align: center;
+                            span {
+                                position: absolute;
+                                top: 30px;
+                                left: 50%;
+                                margin-left: -2px;
+                                display: block;
+                                width: 4px;
+                                height: 4px;
+                                border-radius: 50%;
+                            }
+                        }
+                    }
+                    .active {
+                        a {
+                            color: #b9ab77;
+                            span {
+                                background-color: #b9ab77;
+                            }
+                        }
+                    }
+                }
+            }
+            .jewelry-show {
+                width: 100%;
+                height: 180px;
+                ul {
+                    width: 100%;
+                    height: 100%;
+                    li {
+                        width: 80%;
+                        height: 100%;
+                        float: left;
+                        margin-left: 10%;
+                        margin-top: 20px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+            .activities-pic {
+                position: relative;
+                width: 94%;
+                height: 910px;
+                background: url(../img/footer.jpg) no-repeat center;
+                background-position: 0 0;
+                margin-left: 3%;
+                overflow: hidden;
+                .activities-pic-center {
+                    width: 100%;
+                    height: 334px;
+                    margin: 360px auto;
+                    .welfar-list {
+                        // background-color: lightblue;
+                        width: 100%;
+                        height: 100%;
+                        li {
+                            position: relative;
+                            width: 49%;
+                            height: 80%;
+                            float: left;
+                            background-color: #f5f5f5;
+                            margin-top: 10px;
+                            margin-left: 3px;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                            .list-border {
+                                position: absolute;
+                                top: 2%;
+                                left: 2%;
+                                display: block;
+                                width: 94%;
+                                height: 94%;
+                                border: 1px solid #868176;
+                                display: none;
+                            }
+                            .data {
+                                position: relative;
+                                width: 100%;
+                                height: 94px;
+                                color: #8b8b8b;
+                                font-size: 12px;
+                                span {
+                                    display: block;
+                                    width: 100%;
+                                    height: 94px;
+                                    text-align: center;
+                                    line-height: 94px;
+                                    color: #8b8b8b;
+                                    font-size: 24px;
+                                }
+                                p {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 128px;
+                                    width: 40px;
+                                    height: 100%;
+                                    text-align: right;
+                                    line-height: 105px;
+                                    color: #8b8b8b;
+                                    font-size: 14px;
+                                }
+                            }
+                            .welfar-text {
+                                display: block;
+                                width: 100%;
+                                height: 40px;
+                                font-size: 14px;
+                                color: #000;
+                                text-align: center;
+                                font-weight: bold;
+                                line-height: 40px;
+                                margin-left: 0;
+                            }
+                            p {
+                                width: 100%;
+                                height: 56px;
+                                margin: 0 auto;
+                                color: #8b8b8b;
+                                font-size: 12px;
+                                text-align: left;
+                                line-height: 24px;
+                            }
+                            .button {
+                                margin-top: 50px;
+                                width: 120px;
+                                height: 38px;
+                                a {
+                                    display: block;
+                                    width: 100%;
+                                    height: 100%;
+                                    color: #bebebe;
+                                    font-size: 14px;
+                                    text-align: center;
+                                }
+                            }
+                            &:hover {
+                                .list-border {
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .banner-more-center {
+            width: 100%;
+            margin: 0 auto;
+        }
+        .go-next {
+            display: none;
+        }
+    }
+    .banner-center .new-features .new-features-nav li.active {
+        .new-features-pic {
+            display: block;
+            position: absolute;
+            top: 72px;
+            left: 0;
+            width: 100%;
+            height: 600px;
+            li {
+                width: 45%;
+                height: 260px;
+                float: left;
+                margin-left: 4%;
+                margin-top: 20px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .banner-center .new-features .new-features-nav li.active .new-features-pic li:nth-child(3),
+    .banner-center .new-features .new-features-nav li.active .new-features-pic li:nth-child(1) {
+        margin-left: 4%;
+    }
+    .foot-banner {
+        width: 94%;
+        margin-left: 3%;
+        height: 1400px;
+        margin-top: 52px;
+        background-color: #4d4d4d;
+        .triangle {
+            display: none;
+        }
+        .foot-banner-center {
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            background-color: #4d4d4d;
+            .designer {
+                width: 100%;
+                height: 1350px;
+                .introduce {
+                    width: 100%;
+                    height: 100%;
+                    // background-color: lightblue;
+                    li {
+                        width: 80%;
+                        height: 400px;
+                        // float: left;
+                        margin-left: 10%;
+                        // background-color: lightblue;
+                        margin-top: 20px;
+                        .pic {
+                            width: 180px;
+                            height: 180px;
+                            border-radius: 50%;
+                            margin-left: 25%;
+                        }
+                        .name {
+                            display: block;
+                            width: 100%;
+                            height: 24px;
+                            color: #f7f5f5;
+                            text-align: center;
+                            font-size: 24px;
+                            margin-top: 26px;
+                            line-height: 24px;
+                        }
+                        p {
+                            width: 100%;
+                            height: 20px;
+                            text-align: center;
+                            color: #f7f5f5;
+                            font-size: 12px;
+                            line-height: 20px;
+                        }
+                        .text {
+                            width: 274px;
+                            height: 40px;
+                            margin: 0 auto;
+                            color: #f7f5f5;
+                            text-align: center;
+                            font-size: 12px;
+                            margin-top: 20px;
+                            line-height: 20px;
+                        }
+                        .more {
+                            width: 150px;
+                            height: 44px;
+                            margin: 0 auto;
+                            text-align: center;
+                            line-height: 44px;
+                            color: #f7f5f5;
+                            margin-top: 50px;
+                            border-bottom: 1px solid #bbbaba;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

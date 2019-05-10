@@ -1,0 +1,504 @@
+            @import "nav-style.scss";
+            @import "contact.scss";
+            @import "header-style.scss";
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            ul {
+                list-style: none;
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            
+            .header-m {
+                display: none;
+            }
+            
+            .contact-us-m {
+                display: none;
+            }
+            
+            .aside-tap {
+                position: absolute;
+                left: 1400px;
+                top: 480px;
+                width: 52px;
+                height: 104px;
+                z-index: 999;
+                cursor: pointer;
+                .phone {
+                    width: 100%;
+                    height: 50%;
+                    top: 492px;
+                    background: url(../img/phone.jpg) no-repeat center;
+                    .phone-number {
+                        width: 150px;
+                        height: 50px;
+                        // background-color: #000;
+                        margin-left: -150px;
+                        font-size: 12px;
+                        text-align: center;
+                        line-height: 50px;
+                        border: 1px solid #b9ab77;
+                        display: none;
+                    }
+                }
+                .go-top {
+                    width: 100%;
+                    height: 50%;
+                    background: url(../img/go-top.jpg) no-repeat center;
+                }
+            }
+            
+            .banner {
+                position: relative;
+                top: 80px;
+                width: 100%;
+                overflow: hidden;
+                .swiper {
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                    width: 300%;
+                    height: 720px;
+                    .sildes {
+                        width: 33.33%;
+                        height: 100%;
+                        float: left;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .swiper-more {
+                            position: absolute;
+                            top: 426px;
+                            right: 300px;
+                            width: 206px;
+                            height: 50px;
+                            border: 2px solid #b9ab77;
+                            line-height: 50px;
+                            text-align: center;
+                            color: #b9ab77;
+                            font-style: italic;
+                            background-color: #DCDDE2;
+                            z-index: 101;
+                        }
+                        .swiper-border {
+                            position: absolute;
+                            top: 438px;
+                            right: 310px;
+                            width: 206px;
+                            height: 50px;
+                            border: 2px solid #c1c1c1;
+                        }
+                    }
+                }
+                .dotts {
+                    position: absolute;
+                    top: 674px;
+                    left: 50%;
+                    margin-left: -40px;
+                    width: 80px;
+                    height: 20px;
+                    li {
+                        margin-top: 6px;
+                        width: 8px;
+                        height: 8px;
+                        border-radius: 50%;
+                        background-color: #bebec2;
+                        float: left;
+                        margin-left: 20px;
+                    }
+                    .active {
+                        background-color: #fff;
+                        border: 5px solid #bebec2;
+                        margin-top: 1px;
+                    }
+                }
+                .banner-center {
+                    position: relative;
+                    width: 1200px;
+                    // height: 2000px;
+                    // background-color: lightblue;
+                    margin: 0 auto;
+                    .new-features {
+                        position: relative;
+                        width: 100%;
+                        // height: 72px;
+                        .new-features-nav {
+                            width: 570px;
+                            // height: 400px;
+                            margin: 0 auto;
+                            li {
+                                width: 132px;
+                                height: 435px;
+                                float: left;
+                                margin-left: 14px;
+                                // background-color: lightblue;
+                                a {
+                                    position: relative;
+                                    display: block;
+                                    width: 100%;
+                                    height: 72px;
+                                    color: #4d4d4d;
+                                    text-align: center;
+                                    span {
+                                        position: absolute;
+                                        top: 30px;
+                                        left: 50%;
+                                        margin-left: -2px;
+                                        display: block;
+                                        width: 4px;
+                                        height: 4px;
+                                        border-radius: 50%;
+                                    }
+                                }
+                            }
+                            .active {
+                                a {
+                                    color: #b9ab77;
+                                    span {
+                                        background-color: #b9ab77;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .jewelry-show {
+                        width: 1200px;
+                        height: 180px;
+                        ul {
+                            width: 100%;
+                            height: 100%;
+                            li {
+                                position: relative;
+                                width: 270px;
+                                height: 100%;
+                                float: left;
+                                margin-left: 40px;
+                                .model {
+                                    position: absolute;
+                                    bottom: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 33%;
+                                    background-color: rgba(0, 0, 0, .3);
+                                    display: none;
+                                    span {
+                                        display: block;
+                                        width: 100%;
+                                        text-align: center;
+                                        font-size: 14px;
+                                        color: #fff;
+                                        line-height: 20px;
+                                        margin-top: 10px;
+                                    }
+                                    p {
+                                        width: 100%;
+                                        text-align: center;
+                                        font-size: 12px;
+                                        color: #fff;
+                                        line-height: 24px;
+                                    }
+                                }
+                                &:hover {
+                                    .model {
+                                        display: block;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .activities-pic {
+                        position: relative;
+                        width: 1800px;
+                        height: 504px;
+                        background: url(../img/footer.jpg) no-repeat center;
+                        background-position: 0 0;
+                        margin-left: -300px;
+                        overflow: hidden;
+                        .activities-pic-center {
+                            width: 1200px;
+                            height: 334px;
+                            margin: 169px auto;
+                            .welfar-list {
+                                // background-color: lightblue;
+                                width: 100%;
+                                height: 100%;
+                                li {
+                                    position: relative;
+                                    width: 25%;
+                                    height: 100%;
+                                    float: left;
+                                    background-color: #fafafa;
+                                    .list-border {
+                                        position: absolute;
+                                        top: 2%;
+                                        left: 2%;
+                                        display: block;
+                                        width: 96%;
+                                        height: 96%;
+                                        border: 1px solid #868176;
+                                        display: none;
+                                    }
+                                    .data {
+                                        position: relative;
+                                        width: 100%;
+                                        height: 94px;
+                                        color: #8b8b8b;
+                                        font-size: 14px;
+                                        span {
+                                            display: block;
+                                            width: 128px;
+                                            height: 94px;
+                                            text-align: right;
+                                            line-height: 94px;
+                                            color: #8b8b8b;
+                                            font-size: 30px;
+                                        }
+                                        p {
+                                            position: absolute;
+                                            top: 0;
+                                            left: 128px;
+                                            width: 40px;
+                                            height: 100%;
+                                            text-align: right;
+                                            line-height: 105px;
+                                            color: #8b8b8b;
+                                            font-size: 14px;
+                                        }
+                                    }
+                                    .welfar-text {
+                                        display: block;
+                                        width: 168px;
+                                        height: 40px;
+                                        font-size: 16px;
+                                        color: #000;
+                                        text-align: left;
+                                        font-weight: bold;
+                                        line-height: 40px;
+                                        margin-left: 43px;
+                                    }
+                                    p {
+                                        width: 244px;
+                                        height: 56px;
+                                        margin: 0 auto;
+                                        color: #8b8b8b;
+                                        font-size: 13px;
+                                        text-align: left;
+                                        line-height: 24px;
+                                    }
+                                    .button {
+                                        margin-top: 50px;
+                                        width: 120px;
+                                        height: 38px;
+                                        a {
+                                            display: block;
+                                            width: 100%;
+                                            height: 100%;
+                                            color: #bebebe;
+                                            font-size: 14px;
+                                            text-align: center;
+                                        }
+                                    }
+                                    &:hover {
+                                        .list-border {
+                                            display: block;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .banner-more-center {
+                    width: 1200px;
+                    margin: 0 auto;
+                }
+                .go-next {
+                    position: absolute;
+                    top: 316px;
+                    left: 70px;
+                    width: 50px;
+                    height: 80px;
+                    cursor: pointer;
+                }
+                .go-next.go-up {
+                    position: absolute;
+                    left: 1400px;
+                    background: url(../img/jty.png) no-repeat center;
+                    background-color: #c9cace;
+                }
+                .go-next.go-pro {
+                    background: url(../img/jtz.png) no-repeat center;
+                    background-color: #c9cace;
+                }
+            }
+            
+            .banner-center .new-features .new-features-nav li.active {
+                .new-features-pic {
+                    display: block;
+                    position: absolute;
+                    top: 72px;
+                    left: 0;
+                    width: 1200px;
+                    height: 360px;
+                    transition: all ease 2s;
+                    transform: translateY(500px);
+                    li {
+                        position: relative;
+                        width: 270px;
+                        height: 100%;
+                        float: left;
+                        margin-left: 40px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .veil {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            background-color: rgba(0, 0, 0, .3);
+                            display: none;
+                            span {
+                                display: block;
+                                width: 100%;
+                                height: 50px;
+                                text-align: center;
+                                line-height: 50px;
+                                font-size: 14px;
+                                color: #fff;
+                                margin-top: 118px;
+                            }
+                            p {
+                                width: 100%;
+                                text-align: center;
+                                font-size: 12px;
+                                color: #fff;
+                            }
+                        }
+                        &:hover {
+                            .veil {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .banner-center .new-features .new-features-nav li .new-features-pic {
+                display: none;
+            }
+            
+            .banner-center .new-features .new-features-nav li.active .new-features-pic li:nth-child(1) {
+                margin-left: 0;
+            }
+            
+            .banner-center .new-features .new-features-nav li:nth-child(1) {
+                margin-left: 0;
+            }
+            
+            .banner .jewelry-show ul>li:nth-child(1) {
+                margin-left: 0;
+            }
+            
+            .foot-banner {
+                position: relative;
+                width: 100%;
+                height: 664px;
+                margin-top: 80px;
+                background-color: #4d4d4d;
+                overflow: hidden;
+                z-index: 10;
+                .triangle {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 390px;
+                    height: 680px;
+                    background-color: #3d3d3d;
+                    transition: all ease .4s;
+                    transform: translateX(-250px) translateY(110px) rotate(-25deg);
+                }
+                .foot-banner-center {
+                    width: 1200px;
+                    margin: 0 auto;
+                    background-color: #4d4d4d;
+                    .designer {
+                        width: 1200px;
+                        height: 453px;
+                        .introduce {
+                            width: 100%;
+                            height: 100%;
+                            // background-color: lightblue;
+                            li {
+                                width: 388px;
+                                height: 100%;
+                                float: left;
+                                margin-left: 9px;
+                                .pic {
+                                    width: 180px;
+                                    height: 180px;
+                                    border-radius: 50%;
+                                    margin-left: 104px;
+                                }
+                                .name {
+                                    display: block;
+                                    width: 100%;
+                                    height: 24px;
+                                    color: #f7f5f5;
+                                    text-align: center;
+                                    font-size: 24px;
+                                    margin-top: 26px;
+                                    line-height: 24px;
+                                }
+                                p {
+                                    width: 100%;
+                                    height: 20px;
+                                    text-align: center;
+                                    color: #f7f5f5;
+                                    font-size: 12px;
+                                    line-height: 24px;
+                                }
+                                .text {
+                                    width: 274px;
+                                    height: 40px;
+                                    margin: 0 auto;
+                                    color: #f7f5f5;
+                                    text-align: center;
+                                    font-size: 12px;
+                                    margin-top: 20px;
+                                    line-height: 20px;
+                                }
+                                .more {
+                                    width: 150px;
+                                    height: 44px;
+                                    margin: 0 auto;
+                                    text-align: center;
+                                    line-height: 44px;
+                                    color: #f7f5f5;
+                                    margin-top: 50px;
+                                    border-bottom: 1px solid #bbbaba;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .footer {
+                width: 100%;
+                // height: 100px;
+                .footer-center {
+                    width: 1200px;
+                    height: 100%;
+                    margin: 0 auto;
+                }
+            }

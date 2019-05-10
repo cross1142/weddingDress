@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header-style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/designer.css">
+    <link rel="stylesheet" href="css/designer-m.css">
+    <link rel="stylesheet" href="lib/swiper-3.4.2.min.css">
+</head>
+
+<body>
+    <div class="banner">
+        <div class="banner-center">
+            <div class="banner-pic">
+                <div class="wriper">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide swiper-slide1">
+                                <img class="first-img" src="img/designer1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide swiper-slide1">
+                                <img class="first-img" src="img/designer7.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide swiper-slide2">
+                                <img class="first-img" src="img/designer2.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide swiper-slide2">
+                                <img class="first-img" src="img/designer6.jpg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="gloabl-nav-text tap">
+                <span class="chinese-text">设计师</span>
+                <p class="english-text">Latest Activites</p>
+            </div>
+            <div class="designers">
+                <ul class="designer-list">
+                    <li><img src="img/designer3.jpg" alt="">
+                        <div class="designer-introduce">
+                            <div class="title">吉承 / Jenny</div>
+                            <span>VERONICA的视觉艺术总监</span>
+                            <p>吉承，中国时装设计师代表，JICHENG/织货 byJicheng品牌创始人、设计总监。2015福布斯.
+                            </p>
+                            <div class="more">MORE</div>
+                        </div>
+                    </li>
+                    <li><img src="img/designer4.jpg" alt="">
+                        <div class="designer-introduce">
+                            <div class="title">吉承 / Jenny</div>
+                            <span>VERONICA的视觉艺术总监</span>
+                            <p>吉承，中国时装设计师代表，JICHENG/织货 byJicheng品牌创始人、设计总监。2015福布斯.
+                            </p>
+                            <div class="more">MORE</div>
+                        </div>
+                    </li>
+                    <li><img src="img/designer5.jpg" alt="">
+                        <div class="designer-introduce">
+                            <div class="title">吉承 / Jenny</div>
+                            <span>VERONICA的视觉艺术总监</span>
+                            <p>吉承，中国时装设计师代表，JICHENG/织货 byJicheng品牌创始人、设计总监。2015福布斯.
+                            </p>
+                            <div class="more">MORE</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-center">
+        </div>
+    </div>
+    <script src="lib/jquery-3.3.1.min.js"></script>
+    <script src="lib/swiper-3.4.2.min.js"></script>
+    <script src="js/common.js"></script>
+    <script>
+        var swiper1El = document.querySelector('.banner .banner-center .wriper .swiper-wrapper .swiper-slide1');
+        var mySwiper = new Swiper('.swiper-container', {
+            loop: true,
+            autoplay: 4000,
+            speed: 1000,
+
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+@import "nav-style.scss";
+@import "contact.scss";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contact-us-m {
+    display: none;
+}
+
+.banner {
+    width: 100%;
+    // height: 1192px;
+    margin-top: 80px;
+    .banner-center {
+        width: 1200px;
+        // height: 270px;
+        margin: 0 auto;
+        .banner-pic {
+            width: 1800px;
+            height: 270px;
+            margin-left: -300px;
+            background-color: #000;
+            background: url(../img/active1.jpg) no-repeat top;
+            &:hover {
+                background: url(../img/active2.jpg) no-repeat top;
+            }
+        }
+        .banner-text {
+            position: relative;
+            height: 200px;
+            width: 1800px;
+            margin-left: -300px;
+            background-color: #444;
+            .data-number {
+                width: 394px;
+                height: 100%;
+                margin-left: 300px;
+                overflow: hidden;
+                color: #fff;
+                span {
+                    display: block;
+                    width: 100%;
+                    font-size: 60px;
+                    text-indent: 190px;
+                    margin-top: 55px;
+                }
+                p {
+                    width: 100%;
+                    font-size: 16px;
+                    text-indent: 325px;
+                }
+            }
+            .chinese-text {
+                position: absolute;
+                top: 0;
+                left: 694px;
+                width: 553px;
+                height: 100%;
+                color: #fff;
+                // font-size: 12px;
+                span {
+                    display: block;
+                    width: 100%;
+                    font-size: 16px;
+                    margin-top: 56px;
+                }
+                p {
+                    display: block;
+                    font-size: 12px;
+                    line-height: 20px;
+                }
+                .p1 {
+                    margin-top: 30px;
+                }
+            }
+            .go-up {
+                position: absolute;
+                top: 0;
+                right: 300px;
+                display: block;
+                width: 253px;
+                height: 100%;
+                background: url(../img/jty.png) no-repeat left;
+            }
+        }
+        .banner-text.center {
+            width: 1200px;
+            margin-left: 0;
+            background-color: #fff;
+            color: #4d4d4d;
+            .data-number {
+                width: 424px;
+                margin-left: 0;
+                color: #4d4d4d;
+                text-align: right;
+                p {
+                    width: 100%;
+                    font-size: 16px;
+                    text-indent: 300px;
+                }
+            }
+            .chinese-text {
+                position: absolute;
+                top: 0;
+                left: 457px;
+                color: #4d4d4d;
+                span {
+                    color: #000;
+                }
+            }
+        }
+        .line {
+            display: block;
+            width: 1800px;
+            height: 2px;
+            background-color: #dbdbdb;
+            margin-left: -300px;
+        }
+        .banner-page {
+            position: relative;
+            width: 1200px;
+            height: 120px;
+            // background-color: lightblue;
+            overflow: hidden;
+            span {
+                display: block;
+                width: 30px;
+                height: 30px;
+                background-color: #fff;
+                text-align: center;
+                margin-left: 565px;
+                line-height: 30px;
+                box-sizing: border-box;
+                border: 1px solid #c9c9c9;
+                &:hover {
+                    background-color: #6d6d6d;
+                }
+            }
+            .page1 {
+                margin-top: 28px;
+            }
+            .page2 {
+                position: absolute;
+                top: 28px;
+                left: 40px;
+            }
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    margin-top: -30px;
+    .banner-center {
+        width: 1200px;
+        height: 0;
+        margin: 0 auto;
+    }
+}

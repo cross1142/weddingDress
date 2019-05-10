@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header-style.css">
+    <link rel="stylesheet" href="css/jewelry.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/jewelry-m.css">
+    <link rel="stylesheet" href="lib/swiper-3.4.2.min.css">
+</head>
+
+<body>
+    <div class="banner">
+        <div class="banner-center">
+            <div class="banner-pic">
+            </div>
+
+            <div class="dress-introduce">
+                <div class="title">HardWear系列</div>
+                <p class="english-text">对戒，耳饰</p>
+                <p class="price">$23199.00</p>
+                <span class="color">白色 / M / VK2531</span>
+                <span class="chinese-text">18K白金镶圆形明亮式切割钻石；钻石总重5.99克拉；直径
+                        12毫米；舒适设计，易于佩戴</span>
+                <div class="introduce-btn">
+                    <span>立即预约</span>
+                </div>
+            </div>
+            <div class="introduce-dress">
+                <div class="dress-pic"></div>
+                <div class="dress-text">
+                    <p>Veronica HardWear系列优雅与颠覆精神并存，敏感捕捉到漫步纽约的时尚女性的精髓与能量。璀璨的钻石，更加 凸显这枚戒指的女性魅力
+                    </p>
+                    <span class="size color">钻戒 : $1999.00</span>
+                    <span class="size ">耳饰 : $3899.00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-center">
+            <div class="new-product">戒指
+                <p class="p1">项链</p>
+                <p class="p2">其他</p>
+            </div>
+            <div class="wriper">
+                <div class="go-next go-left swiper-button-prev"></div>
+                <div class="go-next go-right swiper-button-next"></div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="first-img" src="img/swiper1.jpg" alt="">
+                            <img src="img/swiper2.jpg" alt="">
+                            <img src="img/swiper3.jpg" alt="">
+                            <img src="img/swiper4.jpg" alt="">
+                            <img src="img/swiper5.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="first-img" src="img/swiper1.jpg" alt="">
+                            <img src="img/swiper2.jpg" alt="">
+                            <img src="img/swiper3.jpg" alt="">
+                            <img src="img/swiper4.jpg" alt="">
+                            <img src="img/swiper5.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="gloabl-more">
+                <span class="gloabl-more-text">More</span>
+            </div>
+        </div>
+    </div>
+    <script src="lib/jquery-3.3.1.min.js"></script>
+    <script src="lib/swiper-3.4.2.min.js"></script>
+    <script src="js/common.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            loop: true,
+            autoplay: 4000,
+            speed: 1000,
+            // direction: 'vertical',
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+
+        })
+    </script>
+</body>
+
+</html>

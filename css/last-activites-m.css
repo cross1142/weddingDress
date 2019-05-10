@@ -1,0 +1,163 @@
+@media (max-width: 768px) {
+  .banner {
+    width: 100%;
+    margin-top: 52px; }
+    .banner .banner-center {
+      width: 100%;
+      margin: 0 auto; }
+      .banner .banner-center .banner-pic {
+        width: 94%;
+        height: 270px;
+        margin-left: 3%;
+        background-color: #000;
+        background: url(../img/active1.jpg) no-repeat top; }
+        .banner .banner-center .banner-pic:hover {
+          background: url(../img/active2.jpg) no-repeat top; }
+      .banner .banner-center .banner-text {
+        position: relative;
+        height: 320px;
+        width: 94%;
+        margin-left: 3%;
+        background-color: #444;
+        overflow: hidden; }
+        .banner .banner-center .banner-text .data-number {
+          width: 100%;
+          height: 30%;
+          margin-left: 0;
+          margin-top: 20px;
+          overflow: hidden;
+          color: #fff;
+          text-align: center; }
+          .banner .banner-center .banner-text .data-number span {
+            display: block;
+            width: 100%;
+            font-size: 30px;
+            margin-top: 0;
+            text-indent: 0; }
+          .banner .banner-center .banner-text .data-number p {
+            width: 100%;
+            font-size: 16px;
+            text-indent: 0; }
+        .banner .banner-center .banner-text .chinese-text {
+          position: absolute;
+          top: 13%;
+          left: 0;
+          width: 94%;
+          margin-left: 3%;
+          height: 20%;
+          color: #fff; }
+          .banner .banner-center .banner-text .chinese-text span {
+            display: block;
+            width: 100%;
+            font-size: 16px;
+            margin-top: 76px;
+            text-align: center; }
+          .banner .banner-center .banner-text .chinese-text p {
+            display: block;
+            font-size: 12px;
+            line-height: 20px;
+            text-align: left; }
+          .banner .banner-center .banner-text .chinese-text .p1 {
+            margin-top: 30px; }
+        .banner .banner-center .banner-text .go-up {
+          position: absolute;
+          top: 80%;
+          right: 0;
+          display: block;
+          width: 100%;
+          height: 10%;
+          background: url(../img/jtx.png) no-repeat center; }
+      .banner .banner-center .banner-text.center {
+        position: relative;
+        height: 320px;
+        width: 100%;
+        margin-left: 0;
+        background-color: #fff;
+        overflow: hidden; }
+        .banner .banner-center .banner-text.center .data-number {
+          width: 94%;
+          margin-left: 3%;
+          height: 30%;
+          margin-left: 0;
+          margin-top: 20px;
+          overflow: hidden;
+          color: #444;
+          text-align: center; }
+          .banner .banner-center .banner-text.center .data-number span {
+            display: block;
+            width: 100%;
+            font-size: 30px;
+            margin-top: 0;
+            text-indent: 0; }
+          .banner .banner-center .banner-text.center .data-number p {
+            width: 100%;
+            font-size: 16px;
+            text-indent: 0; }
+        .banner .banner-center .banner-text.center .chinese-text {
+          position: absolute;
+          top: 13%;
+          left: 0;
+          width: 94%;
+          margin-left: 3%;
+          height: 20%;
+          color: #444;
+          text-align: left; }
+          .banner .banner-center .banner-text.center .chinese-text span {
+            display: block;
+            width: 100%;
+            font-size: 16px;
+            margin-top: 76px;
+            color: #444;
+            text-align: center; }
+          .banner .banner-center .banner-text.center .chinese-text p {
+            display: block;
+            font-size: 12px;
+            line-height: 20px; }
+          .banner .banner-center .banner-text.center .chinese-text .p1 {
+            margin-top: 30px; }
+        .banner .banner-center .banner-text.center .go-up {
+          position: absolute;
+          top: 80%;
+          right: 0;
+          display: block;
+          width: 100%;
+          height: 10%;
+          background: url(../img/jtx.png) no-repeat center; }
+      .banner .banner-center .line {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #dbdbdb;
+        margin-left: -0; }
+      .banner .banner-center .banner-page {
+        position: relative;
+        width: 100%;
+        height: 60px;
+        overflow: hidden; }
+        .banner .banner-center .banner-page span {
+          display: block;
+          width: 30px;
+          height: 30px;
+          background-color: #fff;
+          text-align: center;
+          margin-left: 43%;
+          line-height: 30px;
+          box-sizing: border-box;
+          border: 1px solid #c9c9c9; }
+          .banner .banner-center .banner-page span:hover {
+            background-color: #6d6d6d; }
+        .banner .banner-center .banner-page .page1 {
+          margin-top: 28px; }
+        .banner .banner-center .banner-page .page2 {
+          position: absolute;
+          top: 28px;
+          left: 40px; }
+
+  .footer {
+    width: 100%;
+    height: 60px; }
+    .footer .footer-center {
+      width: 100%;
+      height: 100%; } }
+
+/*# sourceMappingURL=last-activites-m.css.map */
